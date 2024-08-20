@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cardapio.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/BK_LOGO.png" alt="Burger King Logo">
+        </div>
+        <div class="cabecalho">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="cardapio">
+        <div class="cardapio-item">
+            <img src="https://d3sn2rlrwxy0ce.cloudfront.net/The-King_King-Costela_Novo.png?mtime=20240620132730&focal=none" alt="King Costela" class="item-img">
+            <div class="item-info">
+                <h3>King Costela</h3>
+                <p>Preço: R$ 49,90</p>
+                <button onclick="adicionarAoCarrinho('King Costela', 49.90)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="cardapio-item">
+            <img src="https://d3sn2rlrwxy0ce.cloudfront.net/whopper-catupiry-interna.png?mtime=20240206234311&focal=none" alt="Whopper® Bacon Catupiry®" class="item-img">
+            <div class="item-info">
+                <h3>Whopper® Bacon Catupiry®</h3>
+                <p>Preço: R$ 39,90</p>
+                <button onclick="adicionarAoCarrinho('Whopper® Bacon Catupiry®', 39.90)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="cardapio-item">
+            <img src="https://d3sn2rlrwxy0ce.cloudfront.net/Whopper-Rodeio-1.png?mtime=20230731182553&focal=none" alt="Whopper® Rodeio" class="item-img">
+            <div class="item-info">
+                <h3>Whopper® Rodeio</h3>
+                <P>Pão com gergelim, um suculento hambúrguer de pura carne bovina, cheddar fatiado, molho barbecue, 6 deliciosas onion rings, tomate, alface e maionese.</P>
+                <p>Preço: R$ 44,90</p>
+                <button onclick="adicionarAoCarrinho('Whopper® Rodeio', 44.90)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Burger King. All Rights Reserved.</p>
+        <ul>
+            <li><a class="footer1" href="#">Privacy Policy</a></li>
+            <li><a class="footer1" href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

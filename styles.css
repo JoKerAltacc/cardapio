@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    zoom: 95%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #F5EBDC;
+    color: #502314;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho ul {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho ul li {
+    margin-left: 20px;
+}
+
+.cabecalho ul li a {
+    color: #502314;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    font-family: Impact;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Seção de Título */
+.titulo {
+    background-image: url("https://d3sn2rlrwxy0ce.cloudfront.net/frango-banner-cardapio-d.jpg?mtime=20210226103541&focal=none") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: red;
+    font-family: impact;
+    text-align: center;
+    width: auto;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+footer {
+    background-color: #333;
+    color: #F5EBDC;
+    text-align: center;
+    padding: 20px;
+    min-height: 160px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #F5EBDC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
