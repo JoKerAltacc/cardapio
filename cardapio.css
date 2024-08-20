@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .cardapio-item {
@@ -13,6 +14,7 @@
     width: 300px;
     text-align: center;
     background-color: #fff;
+    margin-top: 20px;
 }
 
 .cardapio-item img {
@@ -28,10 +30,12 @@
 .item-info h3 {
     margin: 10px 0;
     font-size: 1.5rem;
+    color: #502314;
 }
 
 .item-info p {
     margin: 5px 0;
+    color: #502314;
 }
 
 .item-info button {
@@ -42,52 +46,9 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+
 }
 
 .item-info button:hover {
     background-color: #218838;
-}
-
-/* Estilo do carrinho */
-#carrinho {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-#carrinho h2 {
-    margin-top: 0;
-}
-
-#carrinho-itens {
-    list-style: none;
-    padding: 0;
-}
-
-#carrinho-itens li {
-    margin-bottom: 10px;
-}
-
-#carrinho-total {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-#remover-tudo {
-    background-color: #dc3545;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 10px;
-}
-
-#remover-tudo:hover {
-    background-color: #c82333;
 }
